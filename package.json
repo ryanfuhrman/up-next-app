@@ -1,0 +1,30 @@
+{
+  "name": "up-next-app",
+  "version": "1.0.0",
+  "description": "Create and save multiple todo lists",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfuhrman/up-next-app.git"
+  },
+  "keywords": [
+    "todo",
+    "react",
+    "express"
+  ],
+  "author": "Ryan Fuhrman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanfuhrman/up-next-app/issues"
+  },
+  "homepage": "https://github.com/ryanfuhrman/up-next-app#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
